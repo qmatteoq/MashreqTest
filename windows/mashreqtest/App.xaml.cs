@@ -33,7 +33,7 @@ namespace mashreqtest
             Microsoft.ReactNative.Managed.AutolinkedNativeModules.RegisterAutolinkedNativeModulePackages(PackageProviders); // Includes any autolinked modules
 
             PackageProviders.Add(new Microsoft.ReactNative.Managed.ReactPackageProvider());
-            PackageProviders.Add(new ServiceChannel.ReactPackageProvider());
+            //PackageProviders.Add(new ServiceChannel.ReactPackageProvider());
             PackageProviders.Add(new ReactPackageProvider());
 
             InitializeComponent();

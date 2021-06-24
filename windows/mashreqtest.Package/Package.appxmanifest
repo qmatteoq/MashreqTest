@@ -9,8 +9,8 @@
 
   <Identity
     Name="4f4271c9-ae51-4e9f-8671-946a1eb90054"
-    Publisher="CN=mpagani"
-    Version="1.0.0.0" />
+    Publisher="CN=Matteo Pagani, O=Matteo Pagani, L=Como, S=Como, C=IT"
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>mashreqtest.Package</DisplayName>

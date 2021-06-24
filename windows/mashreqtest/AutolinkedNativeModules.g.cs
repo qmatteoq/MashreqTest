@@ -2,14 +2,8 @@
 
 using System.Collections.Generic;
 
-// Namespaces from @react-native-community/checkbox
-using CheckboxWindows;
-
 // Namespaces from react-native-camera
 using ReactNativeCameraCPP;
-
-// Namespaces from react-native-code-push
-using Microsoft.CodePush.ReactNative;
 
 // Namespaces from react-native-device-info
 using RNDeviceInfoCPP;
@@ -35,12 +29,8 @@ namespace Microsoft.ReactNative.Managed
     {
         internal static void RegisterAutolinkedNativeModulePackages(IList<IReactPackageProvider> packageProviders)
         { 
-            // IReactPackageProviders from @react-native-community/checkbox
-            packageProviders.Add(new CheckboxWindows.ReactPackageProvider());
             // IReactPackageProviders from react-native-camera
             packageProviders.Add(new ReactNativeCameraCPP.ReactPackageProvider());
-            // IReactPackageProviders from react-native-code-push
-            packageProviders.Add(new Microsoft.CodePush.ReactNative.ReactPackageProvider());
             // IReactPackageProviders from react-native-device-info
             packageProviders.Add(new RNDeviceInfoCPP.ReactPackageProvider());
             // IReactPackageProviders from react-native-file-picker
